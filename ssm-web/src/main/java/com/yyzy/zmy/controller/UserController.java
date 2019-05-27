@@ -33,6 +33,6 @@ public class UserController {
     @RequestMapping(value = "/file")
     public  String sendFile(){
 
-        return "file.jsp";
+        return "jsp/file.jsp";
     }
 }
