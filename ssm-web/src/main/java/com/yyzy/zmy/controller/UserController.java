@@ -29,4 +29,10 @@ public class UserController {
         out.flush();
         out.close();
     }
+
+    @RequestMapping(value = "/file")
+    public  String sendFile(){
+
+        return "file.jsp";
+    }
 }
